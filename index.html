@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="京旗辉煌,工商注册,公司注册,公司注销,公司转让,代理记账,代缴社保" />
+    <meta name="keywords" content="国家局核名，核名，疑难核名" />
+    <title>京旗辉煌</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <!-- <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script> -->
+</head>
+
+<body>
+    <header class="jq-header">
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Bootstrap 页面</h1>
+            <p>重置浏览器窗口大小查看效果！</p>
+        </div>
+        <nav class="navbar navbar-inverse jq-nav" role="navigation">
+            <div class="container container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">网站名</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li id="home" class="active" onclick="showContent('home')"><a href="#">主页</a></li>
+                        <li onclick="showContent('service')"><a href="#">工商服务</a></li>
+                        <li onclick="showContent('certification')"><a href="#">资质审批</a></li>
+                        <li onclick="showContent('finance')"><a href="#">财会税务</a></li>
+                        <li onclick="showContent('others')"><a href="#">其他服务</a></li>
+                        <li onclick="showContent('contract')"><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content container">
+        <!-- 中间区域 -->
+        <iframe id="content" MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="home.html"
+            width="100%" height="100%"></iframe>
+    </div>
+    <!-- 16:9 aspect ratio -->
+<!-- <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="..."></iframe>
+  </div>
+   -->
+  <!-- 4:3 aspect ratio -->
+  <!-- <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="..."></iframe>
+  </div> -->
+    <footer class="container text-center jq-footer">
+        <div>
+            <!-- <div class="row">
+                <div class="col-sm-6">
+                    <address class="jq-address text-left">
+                        <strong>京旗辉煌</strong><br>
+                        地址：北京市朝阳区朗庭大厦B座412<br>
+                        电话：010-85366802（16601187223）
+                    </address>
+                </div>
+                <div class="col-sm-6">
+                    <p>联系我们</p>
+                    <img style="width: 100px;" src="./images/wechat.png" alt="1660118723">
+                </div>
+            </div> -->
+            <!-- <p>Copyright © 2020 京旗辉煌
+                <a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/recordQuery">京ICP备18052962号</a>
+            </p> -->
+            <p>底部</p>
+        </div>
+    </footer>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
